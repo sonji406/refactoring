@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/svg+xml" href="/src/assets/vaco_symbol.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chit Chat</title>
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/index.css" />
+    <script type="module" src="/src/js/app.js"></script>
+  </head>
+  <body>
+    <img id="vaco" src="/src/assets/vaco.png" />
+    <img id="js" src="/src/assets/javascript.svg" />
+    <main id="main_box">
+      <section class="username-form">
+        <form id="inputNameForm">
+          <input type="text" id="usernameInput" placeholder="닉네임을 입력해주세요." />
+          <p id="inputError"></p>
+        </form>
+      </section>
+      <section class="chat-form">
+        <div class="chat">
+        </div>
+        <div class="myChat">
+        </div>
+        <div id="centerBox">
+					<form id="inputTextForm">
+						<input type="text" id="typedText" />
+					</form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

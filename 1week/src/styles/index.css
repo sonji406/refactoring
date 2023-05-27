@@ -1,0 +1,124 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Pretendard';
+}
+
+#vaco {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  width: 100px;
+}
+
+#js {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+}
+
+main {
+  border: 1px solid grey;
+  width: 420px;
+  height: 800px;
+}
+
+.username-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.username-form input {
+  padding: 15px;
+  width: 220px;
+  border: none;
+  border-bottom: 2px solid rgb(0, 64, 255);
+  text-align: center;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: rgb(90, 90, 90);
+}
+
+.username-form input:focus {
+  outline: none;
+}
+
+.chat-form{
+  display: none;
+}
+
+.chat{
+  text-align: left;
+}
+
+.myChat{
+  text-align: right;
+}
+
+.message{
+  border-bottom: 1px solid rgb(0, 64, 255);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.message-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alignRight{
+  margin-left:auto;
+}
+
+.username{
+  font-weight: 400;
+  font-size: 15px;
+  text-align : center;
+  text-shadow: black 0.5px 0, black 0 0.5px;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  width: 45px;
+}
+
+#nameBorder{
+  border-right: 0px ;
+}
+
+#textChat{
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 200px;
+}
+
+#createdAtDate{
+  font-weight: 300;
+  font-size: 10px;
+}
+
+#centerBox{
+  display: grid;
+  place-items: center;
+}
+
+#typedText{
+  width: 410px;
+  font-size: 14px;
+  margin: 3px 0;
+  height: 25px;
+}
+
+
