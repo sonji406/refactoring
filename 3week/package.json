@@ -1,0 +1,14 @@
+{
+  "name": "underdash",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --ui"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^0.31.1",
+    "vite": "^4.3.2",
+    "vitest": "^0.31.1"
+  }
+}
