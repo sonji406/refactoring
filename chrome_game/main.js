@@ -6,7 +6,7 @@ canvas.height = 550;
 
 const siru = new Image();
 siru.src = './siru.png';
-
+//test
 const dino = {
   x: 10,
   y: 200,
