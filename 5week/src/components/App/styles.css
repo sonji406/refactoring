@@ -1,0 +1,113 @@
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.panel {
+  width: 50%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.panel.left {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.panel.right {
+  margin-left: 50px;
+}
+
+.selected-cat {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-cat img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.button-wrapper {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.button-wrapper button {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  transition: all 0.2s linear;
+}
+
+.button-wrapper button:hover {
+  background-color: #cccccc;
+}
+
+.board ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 20px 0 0;
+}
+
+.board li {
+  height: 100px;
+}
+
+.board img {
+  width: 100%;
+  height: 100%;
+}
+
+.history {
+  margin-top: 30px;
+}
+
+.history li {
+  margin-bottom: 10px;
+}
+
+.history li:hover {
+  cursor: pointer;
+  color: #eeeeee;
+  transition: all 0.2s linear;
+}
